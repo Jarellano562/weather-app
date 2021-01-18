@@ -8,8 +8,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Tangerine', cursive;
-}
+    font-family: 'El Messiri', sans-serif;}
 
 body {
     font-size: 16px;
@@ -91,3 +90,118 @@ ul {
     padding-left: 20px;
 }
 
+/*THIS IS WHERE THE UV INDEX COLOR BOX BEGINS*/
+
+.green {
+    background-color: green;
+    color: var(--primary-color);
+    margin-left: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  .orange {
+    background-color: orange;
+    color: var(--primary-color);
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    color: black;
+    margin-left: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  .red {
+    background-color: red;
+    color: var(--primary-color);
+    margin-left: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  .purple {
+    background-color: purple;
+    color: var(--primary-color);
+    margin-left: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+  }
+  /*THIS IS WHERE THE UV COLOR BOX ENDS*/
+  
+  
+  /*THIS IS WHERE THE 5 DAY FORECAST STARTS*/
+  
+  #fiveDay {
+    text-align: left;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: black;
+  }
+  
+  #dailyforcast {
+    width: 100%;
+    padding: 0;
+    margin: 5px 0px 0px 15px;
+  }
+  
+  .card-deck {
+    margin: 0 auto;
+    float: none;
+    align-content: center;
+  }
+  
+  .fiveDayCard {
+    border: none;
+  }
+  
+  .card-header {
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--primary-color);
+    text-align: center;
+    padding-bottom: 0px;
+    border: none;
+  }
+  
+  .card-body {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    border: none;
+  }
+  
+  .card-deck .card {
+    margin-bottom: 15px;
+  }
+  
+  /*THIS IS WHERE THE MEDIA QUERIES START*/
+  
+  @media screen and (max-width: 576px) {
+    .navbar-brand {
+        text-align: center;
+        padding: 0 auto;
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-brand {
+        text-align: center;
+        padding: 0 auto;
+        width: 100%;
+    }
+  }
